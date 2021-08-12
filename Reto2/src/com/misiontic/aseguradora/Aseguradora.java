@@ -1,4 +1,4 @@
-package main;
+package com.misiontic.aseguradora;
 
 public class Aseguradora {
 
@@ -6,14 +6,6 @@ public class Aseguradora {
 	static double salud = 8.5;
 	static double riesgosLab = 0.522;
 	static double minimo = 908526;
-
-	
-	  public static void main(String[] args) {
-	  int salario = 1810050; 
-	  int diasTrabajados = 152; 
-	  Aseguradora.liquidarPrestaciones(salario, diasTrabajados); 
-	  Aseguradora.liquidarSegSocial(salario, diasTrabajados);
-	  }
 	 
 	public static double liquidarPrestaciones (int salario, int diasTrabajados) {
 		double auxTransporte = 106454;
